@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,42 +8,57 @@
     <title>Bootstrap Freelancer</title>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
+        defer></script>
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-    <header class="w-100 overflow-hidden">
-        <nav class="navbar w-100">
+    <header>
+        <nav class="navbar navbar-expand-lg text-uppercase">
             <div class="container">
-                <div class="row justify-content-between w-100 ">
-                    <div class="col">
-                        <a class="text-nowrap link-light text-decoration-none" href="#"><h1>START BOOTSTRAP</h1></a>
-                    </div>
-                    <div class="col-1 d-md-none">
-                        <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-bars"></i></button>
-                    </div>
-                    <div class="d-none d-md-block col-md-4">
-                        <ul class="d-flex list-unstyled h-100 align-items-center">
-                            <li><a class="link-light text-decoration-none px-3" href="#portfolio">PORTFOLIO</a></li>
-                            <li><a class="link-light text-decoration-none px-3" href="#about">ABOUT</a></li>
-                            <li><a class="link-light text-decoration-none px-3" href="#contact">CONTACT</a></li>
-                        </ul>
-                    </div>
-                </div>
+              <a class="navbar-brand text-white fs-1 col-md-4" href="#">start bootstrap</a>
+              <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white"></i>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <div class="col-0 col-md-6"></div>
+                <ul class="col-md-3 navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 130px;">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#portfolio">portfolio</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">about</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">contact</a>
+                  </li>
+                    
+                  
+                
+              </div>
             </div>
-        </nav>
+          </nav>
         <div class="container">
             <div class="row justify-content-center mt-5">
                 <div class="col-11 col-md-4">
-                    <img src="img/avatar.svg"class="img-fluid">
+                    <img src="img/avatar.svg" class="img-fluid">
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -58,12 +74,13 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
-                    <h2 class="text-white text-nowrap text-center w-100">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
+                    <h2 class="text-white text-nowrap text-center w-100">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                    </h2>
                 </div>
             </div>
         </div>
     </header>
-    
+
     <section id="portfolio">
         <div class="container mt-5 text-center pb-5">
             <h2>PORTFOLIO</h2>
@@ -106,12 +123,17 @@
         <div class="container pt-5">
             <div class="row justify-content-center">
                 <h2 class="text-white text-center">ABOUT</h2>
-                <p class="col-10 col-md-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, mollitia suscipit fugit modi quis odit ut impedit dolorem omnis optio dolore quae. Natus distinctio corporis delectus illo, sed ex fugit.</p>
-                <p class="col-10 col-md-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, mollitia suscipit fugit modi quis odit ut impedit dolorem omnis optio dolore quae. Natus distinctio corporis delectus illo, sed ex fugit.</p>
+                <p class="col-10 col-md-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+                    mollitia suscipit fugit modi quis odit ut impedit dolorem omnis optio dolore quae. Natus distinctio
+                    corporis delectus illo, sed ex fugit.</p>
+                <p class="col-10 col-md-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+                    mollitia suscipit fugit modi quis odit ut impedit dolorem omnis optio dolore quae. Natus distinctio
+                    corporis delectus illo, sed ex fugit.</p>
             </div>
             <div class="row justify-content-center pt-5
             pb-5">
-                <button type="button" class="text-white text-center btn btn-outline-light w-25"><i class="fa-solid fa-download"></i> Download</button>
+                <button type="button" class="text-white text-center btn btn-outline-light w-25"><i
+                        class="fa-solid fa-download"></i> Download</button>
             </div>
         </div>
     </section>
@@ -126,21 +148,27 @@
             </div>
             <div class="col-12 col-md-4">
                 <h3>AROUND THE WEB</h3>
-                <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-facebook"></i></button>
-                <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-google-plus-g"></i></button>
-                <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-twitter"></i></button>
-                <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-linkedin"></i></button>
+                <button type="button" class="btn btn-outline-light rounded-circle"><i
+                        class="fa-brands fa-facebook"></i></button>
+                <button type="button" class="btn btn-outline-light rounded-circle"><i
+                        class="fa-brands fa-google-plus-g"></i></button>
+                <button type="button" class="btn btn-outline-light rounded-circle"><i
+                        class="fa-brands fa-twitter"></i></button>
+                <button type="button" class="btn btn-outline-light rounded-circle"><i
+                        class="fa-brands fa-linkedin"></i></button>
             </div>
             <div class="col-12 col-md-4">
                 <h3>ABOUT FREELANCER</h3>
-                <p>freelance is a free to use, open source Bootstrap theme created by <a class="link-success" href="#">Start Bootstrap</a></p>
+                <p>freelance is a free to use, open source Bootstrap theme created by <a class="link-success"
+                        href="#">Start Bootstrap</a></p>
             </div>
         </div>
     </footer>
     <div class="colored">
         <div class="row justify-content-center text-center text-white text-white p-5">
-            Copyright &copy; Your Website 2022 
+            Copyright &copy; Your Website 2022
         </div>
     </div>
 </body>
+
 </html>
