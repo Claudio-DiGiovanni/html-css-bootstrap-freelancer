@@ -37,8 +37,8 @@ footer{
     position: absolute;
     font-size: 30px;
     background-color: #1abc9c;
-    top: -15px;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 0 2rem;
 }
 
@@ -54,4 +54,22 @@ footer{
 
 .btn-send{
     background-color: #1abc9c;
+}
+
+.nav-link:hover{
+    color: #1abc9c !important;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(26, 128, 156, .5);
+    display: none;
+}
+
+.card:hover .overlay{
+    display: flex;
 }
